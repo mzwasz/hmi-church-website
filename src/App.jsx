@@ -10,6 +10,8 @@ import {
 
   Clock,
 
+  Cross,
+
   Heart,
 
   MapPin,
