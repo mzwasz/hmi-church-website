@@ -10,8 +10,6 @@ import {
 
   Clock,
 
-  Cross,
-
   Heart,
 
   MapPin,
@@ -233,55 +231,6 @@ function App() {
               </div>
 
 
-            <section className="welcome-leadership bg-[#07156f] px-4 py-16 text-white sm:px-6 sm:py-20 lg:px-8">
-              <div className="welcome-message mx-auto max-w-4xl text-center">
-                <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-full border border-[#f5bd32]/60 text-[#f5bd32]">
-                  <Cross size={26} strokeWidth={1.7} aria-hidden="true" />
-                </div>
-
-                <p className="mt-6 text-xs font-bold uppercase tracking-[0.2em] text-[#f5bd32] sm:text-sm">
-                  A Message From Our Leadership
-                </p>
-                <h2 className="section-title mt-3 text-3xl text-white sm:text-4xl lg:text-5xl">
-                  A Welcome from Our Church Leadership
-                </h2>
-
-                <div className="mx-auto mt-8 h-1 w-16 rounded-full bg-[#f5bd32]" />
-
-                <div className="mx-auto mt-8 max-w-3xl space-y-5 text-left text-base leading-7 text-white/90 sm:text-lg sm:leading-8">
-                  <h3 className="text-center text-xl font-bold leading-snug text-white sm:text-2xl">
-                    Welcome to House of Mercy International Church
-                  </h3>
-                  <p>
-                    Grace and peace to you in the name of our Lord Jesus Christ.
-                  </p>
-                  <p>
-                    We warmly welcome you to House of Mercy International Church, a place where you can grow in faith, experience the love of God, and find a community that walks together in Christ. Whether you are visiting for the first time or have been part of our church family for years, we pray that you will feel at home in God's presence.
-                  </p>
-                  <p>
-                    Our heart is to help people <span className="capitalize font-bold text-[#f5bd32]">believe</span> in Christ, <span className="capitalize font-bold text-[#f5bd32]">belong</span> to a loving church family, and <span className="capitalize font-bold text-[#f5bd32]">become</span> all that God has called them to be. We look forward to worshipping, growing, and serving together with you.
-                  </p>
-                  <p>
-                    May the Lord bless you and your family abundantly.
-                  </p>
-                  <p className="pt-1">
-                    With love and prayers,
-                    <br />
-                    <strong className="text-white">The Church Leadership</strong>
-                    <br />
-                    House of Mercy International Church
-                  </p>
-                </div>
-
-                <a
-                  href="#contact"
-                  className="mt-9 inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-[#f5bd32] px-6 py-3 font-black text-[#07156f] shadow-lg transition hover:-translate-y-0.5 hover:bg-[#ffd36b] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white"
-                >
-                  Plan Your Visit
-                  <ArrowRight size={18} />
-                </a>
-              </div>
-            </section>
               <div className="text-xs font-bold tracking-[0.18em] text-[#b47b08]">
 
                 INTERNATIONAL CHURCH

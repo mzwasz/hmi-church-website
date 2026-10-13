@@ -86,10 +86,6 @@ video {
   width: 100%;
 }
 
-.welcome-message {
-  animation: hero-word-enter 700ms ease-out both;
-}
-
 /* Headline animation */
 
 .hero-word {
